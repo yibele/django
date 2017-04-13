@@ -6,6 +6,4 @@ from django.http import HttpResponse
 def index(request):
     return HttpResponse("hello wordl, you are at the polls index")
 
-def test(request):
-    return HttpResponse('test')
 
